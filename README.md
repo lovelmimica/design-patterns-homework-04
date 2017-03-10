@@ -61,6 +61,6 @@ The pattern is used to iterate through some specifict object of availabile divin
 ###Factory Method
 The pattern is used for creating proliferated diving skills and gear. In class diagram, this pattern is marked with ***brown***.
 ###Singleton
-The pattern is used to enforce uniqueness for particular objects of Params and Data . In class diagram, this pattern is marked with pink.
+The pattern is used to enforce uniqueness for particular objects of Params and Data . In class diagram, this pattern is marked with ***pink***.
 ##Class diagram
 TODO: insert pic
