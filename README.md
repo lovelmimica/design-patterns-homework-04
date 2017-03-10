@@ -53,7 +53,7 @@ The pattern is used for desig of overall system architecture, which is (in gener
 ###Template Method
 The pattern is used for loading data from text file (and altering the source/type of loaded data). In class diagram, this pattern is market with ***yellow***. 
 ###Strategy
-The pattern is used for implementation of alternative comaration algorithms (for comparing gear and/or divers). In class diagram, this pattern is market with ***gray***. 
+The pattern is used for implementation of alternative comaration algorithms (for comparing gear and/or divers). In class diagram, this pattern is market with ***violet***. 
 ###Leasing & Flyweight
 The combination of patterns is used to assign gear to divers (on the way that the gear is only leased, and after some time returned). Leasing pattern is used to implement leasing contract, while Flyweight used to achieve reusability of gear objects (on lease, the lease provider grants only reference to some gear object, and decrements its availability). In class diagram, this pattern is market with ***green***. 
 ###Iterator
