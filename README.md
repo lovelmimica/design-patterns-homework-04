@@ -63,4 +63,4 @@ The pattern is used for creating proliferated diving skills and gear. In class d
 ###Singleton
 The pattern is used to enforce uniqueness for particular objects of Params and Data . In class diagram, this pattern is marked with ***pink***.
 ##Class diagram
-TODO: insert pic
+![alt tag](https://github.com/lovelmimica/design-patterns-homework-04/blob/master/class-diagram.jpg)
