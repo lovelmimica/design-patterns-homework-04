@@ -1,5 +1,5 @@
 #design-patterns-homework-04
-Homework assignment is to create application with specifications as those in following lines, which also should contain implementation of some GOF design and POSA architecture patterns.
+Homework assignment is to create application with specifications as those in following lines, which also should contain implementation of some GOF design,  POSA architecture and POSA resource management patterns.
 
 ##Functional requirements
 
@@ -47,3 +47,20 @@ If there is not enough divers to plan some dives, then all divers return equipme
 
 After each dive and after each returning equipment from diver (due to lease expiry), program should print state of equipment storage.
 
+##Used design and architectural patterns
+###Pipes and Filters
+The pattern is used for desig of overall system architecture, which is (in general) composed of filter objects (all extend abstract class FilterAbstract) which work with same data stream (singleton instance of class Data). Main class is acting as pipeline. In class diagram, this pattern is market with ***gray***. 
+###Template Method
+The pattern is used for loading data from text file (and altering the source/type of loaded data). In class diagram, this pattern is market with ***yellow***. 
+###Strategy
+The pattern is used for implementation of alternative comaration algorithms (for comparing gear and/or divers). In class diagram, this pattern is market with ***gray***. 
+###Leasing & Flyweight
+The combination of patterns is used to assign gear to divers (on the way that the gear is only leased, and after some time returned). Leasing pattern is used to implement leasing contract, while Flyweight used to achieve reusability of gear objects (on lease, the lease provider grants only reference to some gear object, and decrements its availability). In class diagram, this pattern is market with ***green***. 
+###Iterator
+The pattern is used to iterate through some specifict object of availabile diving gear. In class diagram, this pattern is market with ***red***. 
+###Factory Method
+The pattern is used for creating proliferated diving skills and gear. In class diagram, this pattern is marked with ***brown***.
+###Singleton
+The pattern is used to enforce uniqueness for particular objects of Params and Data . In class diagram, this pattern is marked with pink.
+##Class diagram
+TODO: insert pic
