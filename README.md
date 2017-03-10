@@ -49,15 +49,15 @@ After each dive and after each returning equipment from diver (due to lease expi
 
 ##Used design and architectural patterns
 ###Pipes and Filters
-The pattern is used for desig of overall system architecture, which is (in general) composed of filter objects (all extend abstract class FilterAbstract) which work with same data stream (singleton instance of class Data). Main class is acting as pipeline. In class diagram, this pattern is market with ***gray***. 
+The pattern is used for desig of overall system architecture, which is (in general) composed of filter objects (all extend abstract class FilterAbstract) which work with same data stream (singleton instance of class Data). Main class is acting as pipeline. In class diagram, this pattern is marked with ***gray***. 
 ###Template Method
-The pattern is used for loading data from text file (and altering the source/type of loaded data). In class diagram, this pattern is market with ***yellow***. 
+The pattern is used for loading data from text file (and altering the source/type of loaded data). In class diagram, this pattern is marked with ***yellow***. 
 ###Strategy
-The pattern is used for implementation of alternative comaration algorithms (for comparing gear and/or divers). In class diagram, this pattern is market with ***violet***. 
+The pattern is used for implementation of alternative comaration algorithms (for comparing gear and/or divers). In class diagram, this pattern is marked with ***violet***. 
 ###Leasing & Flyweight
-The combination of patterns is used to assign gear to divers (on the way that the gear is only leased, and after some time returned). Leasing pattern is used to implement leasing contract, while Flyweight used to achieve reusability of gear objects (on lease, the lease provider grants only reference to some gear object, and decrements its availability). In class diagram, this pattern is market with ***green***. 
+The combination of patterns is used to assign gear to divers (on the way that the gear is only leased, and after some time returned). Leasing pattern is used to implement leasing contract, while Flyweight used to achieve reusability of gear objects (on lease, the lease provider grants only reference to some gear object, and decrements its availability). In class diagram, this pattern is marked with ***green***. 
 ###Iterator
-The pattern is used to iterate through some specifict object of availabile diving gear. In class diagram, this pattern is market with ***red***. 
+The pattern is used to iterate through some specifict object of availabile diving gear. In class diagram, this pattern is marked with ***red***. 
 ###Factory Method
 The pattern is used for creating proliferated diving skills and gear. In class diagram, this pattern is marked with ***brown***.
 ###Singleton
